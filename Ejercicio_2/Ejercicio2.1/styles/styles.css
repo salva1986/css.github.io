@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+.columna-izquierda {
+    width: 260px;
+    float: left;
+}
+    
+.columna-derecha {
+    width: 700px;
+    float: left;
+}
+ul.datos-libro {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+ul.datos-libro li {
+        margin-bottom: 10px;
+}
+
+.columnas {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+      
+.columnas li {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
+      
+.columnas li:nth-child(2) {
+    margin-right: 5px;
+}
+      
+.columnas li:nth-child(3) {
+        margin-left: 5px;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+  }

@@ -1,0 +1,23 @@
+table tr th.moneda {
+    background-color: #00BFFF; 
+  }
+  
+  table tr td.cambios {
+    background-color: #FFFFE0; 
+  }
+  
+  table tr:hover {
+    background-color: #FFFF66;
+  }
+  
+  table tr:hover th,
+  table tr:hover td {
+    background-color: #FFFF66;
+  }
+
+img{
+    width: 20px;  
+    float: left;
+}
+
+

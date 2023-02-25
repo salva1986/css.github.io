@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Ejercicio_9/styles/style.css">
+    <title>iDESWEB | Registro de usuarios</title>
+</head>
+<body>
+	<div class="container">
+		<h1>iDESWEB</h1>
+		<h2>Formulario de registro</h2>
+		<label class="label-destacado1">QUIEN ERES?</label>
+		<fieldset>
+			<label>Nombre:</label><br>
+			<input type="text"><br>
+			<label>Apellidos:</label><br>
+			<input type="text"><br>
+			<label>Correo electronico:</label><br>
+			<input type="text"><br>
+			<label>Fecha de nacimiento</label><br>
+			<input type="date"><br>
+		</fieldset><br>
+		<label class="label-destacado">DE DONDE ERES</label>
+		<fieldset>
+			<label>Ciudad</label><br>
+			<input type="text"><br>
+			<label>Codigo postal</label><br>
+			<input type="text"><br>
+			<label>Pais</label><br>
+			<select id="pais" name="pais">
+				<option value="">Seleccionar país</option>
+				<option value="argentina">Argentina</option>
+				<option value="bolivia">Bolivia</option>
+				<option value="brasil">Brasil</option>
+				<option value="chile">Chile</option>
+				<option value="colombia">Colombia</option>
+				<option value="costa-rica">Costa Rica</option>
+				<option value="cuba">Cuba</option>
+				<option value="ecuador">Ecuador</option>
+				<option value="el-salvador">El Salvador</option>
+				<option value="guatemala">Guatemala</option>
+				<option value="haiti">Haití</option>
+				<option value="honduras">Honduras</option>
+				<option value="jamaica">Jamaica</option>
+				<option value="mexico">México</option>
+				<option value="nicaragua">Nicaragua</option>
+				<option value="panama">Panamá</option>
+				<option value="paraguay">Paraguay</option>
+				<option value="peru">Perú</option>
+				<option value="puerto-rico">Puerto Rico</option>
+				<option value="rep-dominicana">República Dominicana</option>
+				<option value="uruguay">Uruguay</option>
+				<option value="venezuela">Venezuela</option>
+			</select><br>
+	</fieldset><br>
+	<label class="label-destacado">COMO QUIERES INICIAR SESION?</label>
+	<fieldset>
+		<label>Nombre de usuario:</label><br>
+		<input type="text"><br>
+		<label>Contraseña:</label><br>
+		<input type="password"><br>
+		<label>Vuelve a escribir la contraseña</label><br>
+		<input type="password"><br>
+    </fieldset><br>
+    <label class="label-destacado">CONDICIONES DE REGISTRO</label><br>
+    <fieldset>
+        <p>Deseo recibir oferta de iDESWEB</p>
+        <input type="radio" id="opcion1" name="oferta">
+        <label for="opcion1">Una vez al día</label><br>
+        <input type="radio" id="opcion2" name="oferta">
+        <label for="opcion2">Una vez a la semana</label><br>
+        <input type="radio" id="opcion3" name="oferta">
+        <label for="opcion3">Una vez al mes</label><br>      
+        <p>¿Te gustaría recibir nuestro boletín?</p><br>
+        <input type="checkbox" id="boletin" name="boletin" value="si">
+        <label for="boletin">Sí, me gustaría recibir el boletín</label><br>
+    </fieldset>
+    <a href="#">Crear Cuenta</a>
+    <a href="/index.html">Atras</a>
+</body>
+</html>

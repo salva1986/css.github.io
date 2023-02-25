@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+label, legend {
+    font-weight: bold;
+
+}
+
+input:hover {
+    background-color: red;
+}
+
+input:focus, select:focus {
+    background-color: yellow;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+  }

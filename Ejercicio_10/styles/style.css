@@ -1,0 +1,184 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .white {
+    background-color: #FFFFFF;
+    color: #066927;
+  }
+  
+  .red {
+    background-color: #FF0000;
+    color: #066927;
+  }
+  
+  .green {
+    background-color: #00FF00;
+    color: #066927;
+  }
+  
+  .blue {
+    background-color: #0000FF;
+    color: #066927;
+  }
+
+  .white2 {
+    background-color: #FFFFFF;
+    color: #FF0000;
+  }
+  
+  .red2 {
+    background-color: #FF0000;
+    color: #FF0000;
+  }
+  
+  .green2 {
+    background-color: #00FF00;
+    color: #FF0000;
+  }
+  
+  .blue2 {
+    background-color: #0000FF;
+    color: #FF0000;
+  }
+
+  .white3 {
+    background-color: #FFFFFF;
+    color: #0000FF;
+  }
+  
+  .red3 {
+    background-color: #FF0000;
+    color: #0000FF;
+  }
+  
+  .green3 {
+    background-color: #00FF00;
+    color: #0000FF;
+  }
+  
+  .blue3 {
+    background-color: #0000FF;
+    color: #0000FF;
+  }
+
+  .white4 {
+    background-color: #FFFFFF;
+    color: #f5861e;
+  }
+  
+  .red4 {
+    background-color: #FF0000;
+    color: #f5861e;
+  }
+  
+  .green4 {
+    background-color: #00FF00;
+    color: #f5861e;
+  }
+  
+  .blue4 {
+    background-color: #0000FF;
+    color: #f5861e;
+  }
+
+  .white5 {
+    background-color: #FFFFFF;
+    color: #7d2181;
+  }
+  
+  .red5 {
+    background-color: #FF0000;
+    color: #7d2181;
+  }
+  
+  .green5 {
+    background-color: #00FF00;
+    color: #7d2181;
+  }
+  
+  .blue5 {
+    background-color: #0000FF;
+    color: #7d2181;
+  }
+
+  .white6 {
+    background-color: #FFFFFF;
+    color: #86895d;
+  }
+  
+  .red6 {
+    background-color: #FF0000;
+    color: #86895d;
+  }
+  
+  .green6 {
+    background-color: #00FF00;
+    color: #86895d;
+  }
+  
+  .blue6 {
+    background-color: #0000FF;
+    color: #86895d;
+  }
+
+  .white7 {
+    background-color: #FFFFFF;
+    color: #FF00FF;
+  }
+  
+  .red7 {
+    background-color: #FF0000;
+    color: #FF00FF;
+  }
+  
+  .green7 {
+    background-color: #00FF00;
+    color: #FF00FF;
+  }
+  
+  .blue7 {
+    background-color: #0000FF;
+    color: #FF00FF;
+  }
+
+  .white8 {
+    background-color: #FFFFFF;
+    color: #066927;
+  }
+  
+  .red8 {
+    background-color: #FF0000;
+    color: #066927;
+  }
+  
+  .green8 {
+    background-color: #00FF00;
+    color: #066927;
+  }
+  
+  .blue8 {
+    background-color: #0000FF;
+    color: #066927;
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+  }
