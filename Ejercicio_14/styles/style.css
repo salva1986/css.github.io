@@ -1,0 +1,129 @@
+.container {
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    line-height: 180px;
+  }
+  
+  .container1 {
+    background-color: #ffc107;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container1:hover {
+    background-color: #ff6666;
+  }
+  
+  .container2 {
+    background-color: #03a9f4;
+    transition: font-size 0.3s ease;
+  }
+  
+  .container2:hover {
+    font-size: 24px;
+  }
+  
+  .container3 {
+    background-color: #8bc34a;
+    transition: color 0.5s ease;
+  }
+  
+  .container3:hover {
+    color: #fff;
+  }
+  
+  .container4 {
+    background-color: #ff5722;
+    transition: line-height 5s 1.5 ease-in-out;
+  }
+  
+  .container4:hover {
+    line-height: 1.5;
+  }
+  
+  .container5 {
+    background-color: #9c27b0;
+    transition: border-radius 0.5s 100px ease-in-out;
+  }
+  
+  .container5:hover {
+    border-radius: 100px;
+  }
+  
+  .container6 {
+    background-color: #607d8b;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .container6:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container7 {
+    background-color: #795548;
+    transition: opacity 0.5s ease;
+  }
+  
+  .container7:hover {
+    opacity: 0.5;
+  }
+  
+  .container8 {
+    background-color: #e91e63;
+    transition-property: background-color, font-size, transform;
+    transition-duration: 0.5s, 1s, 2s;
+    transition-timing-function: linear, ease-in-out, ease-in-out;
+  }
+  .container8:hover {
+    background-color: #3498db;
+    font-size: 24px;
+    transform: rotate(360deg);
+  }
+  
+  .container9 {
+    background-color: #00bcd4;
+    transition-property: color, border-radius, box-shadow;
+    transition-duration: 0.5s, 1s, 2s;
+    transition-timing-function: ease-in-out, linear, ease-in-out;
+  }
+  
+  .container9:hover {
+    color: #e74c3c;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #7f8c8d;
+  }
+  
+  .container10 {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    transition: opacity 1s, color 1.5s, transform 2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .container10:hover {
+    opacity: 0.5;
+    color: #f1c40f;
+    transform: scale(1.2);
+  }
+
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+}
