@@ -1,0 +1,87 @@
+.solid-color-text {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .word-1 {
+    animation: color-1 6s linear infinite;
+  }
+  
+  .word-2 {
+    animation: color-2 6s linear infinite;
+  }
+  
+  .word-3 {
+    animation: color-3 6s linear infinite;
+  }
+  
+  .word-4 {
+    animation: color-4 6s linear infinite;
+  }
+  
+  @keyframes color-1 {
+    0% {
+      color: #df6d21;
+    }
+    50% {
+      color: #060f85;
+    }
+    100% {
+      color: #be04e4;
+    }
+
+  }
+
+  @keyframes color-2 {
+    0% {
+        color: #11cccc;
+      }
+      50% {
+        color: #1815da;
+      }
+      100% {
+        color: #cdda19;
+      }
+
+  }
+  
+  @keyframes color-3 {
+    0% {
+        color: #df6d21;
+      }
+      50% {
+        color: #be04e4;
+      }
+      100% {
+        color: #060f85;
+      }
+
+  }
+  
+  @keyframes color-4 {
+
+      0% {
+        color: #be04e4;
+      }
+      50% {
+        color: #df6d21;
+      }
+      100% {
+        color: #060f85;
+      }
+  }
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+}

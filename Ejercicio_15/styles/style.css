@@ -1,0 +1,95 @@
+.menu {
+  display: block;
+  position: relative;
+  height: 76px;
+  width: 120px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.menu.servicios {
+  border-top: 0.3em solid #ffc000;
+}
+
+.menu.recursos {
+  border-top: 0.3em solid #b81800;
+}
+
+.menu.proyectos {
+  border-top: 0.3em solid #00a53c;
+}
+
+.menu.contacto {
+  border-top: 0.3em solid #9600b4;
+}
+
+.menu.atras {
+  border-top: 0.3em solid #2e04ec;
+}
+
+.menu>span {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0%;
+  transition: 0.5s ease-in-out;
+}
+
+.menu>span>span {
+  display: block;
+  text-align: center;
+  border-radius: 0em;
+  padding: 2em 0 1.5em;
+  color: #fff;
+}
+
+.menu:after {
+  content: attr(data-title);
+  width: 100%;
+  background: #000;
+  color: #fff;
+  display: block;
+  text-align: center;
+  border-radius: 0em;
+  padding: 2em 0 1.5em;
+}
+
+.menu.servicios>span>span {
+  background: #ffc000;
+}
+
+.menu.proyectos>span>span {
+  background: #00a53c;
+}
+
+.menu.recursos>span>span {
+  background: #b81800;
+}
+
+.menu.contacto>span>span {
+  background: #9600b4;
+}
+
+.menu.atras>span>span{
+  background: #2e04ec;
+}
+
+.menu:hover>span {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: inline;
+  float: left;
+  text-decoration: none;
+  font-family: sans-serif;
+}
