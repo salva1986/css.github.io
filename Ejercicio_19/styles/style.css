@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.salto {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 1500px;
+    margin-top: 300px;
+}
+
+.salto span {
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    animation-name: saltoKF;
+    animation-duration: 1s;
+    animation-delay: calc(.1s * var(--i));
+    animation-iteration-count: infinite;
+}
+
+@keyframes saltoKF {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
+.salto2 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    transform: rotateX(180deg);
+    width: 1500px;
+    margin-top: -50px;
+}
+
+.salto2 span {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    animation-name: saltoKF2;
+    animation-duration: 1s;
+    animation-delay: calc(.1s * var(--i));
+    animation-iteration-count: infinite;
+}
+
+.salto2 .span2 {
+    background-image: linear-gradient(to bottom, black 10%, rgb(17, 17, 17) 50%, rgb(255, 255, 255) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes saltoKF2 {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #ccc;
+}
